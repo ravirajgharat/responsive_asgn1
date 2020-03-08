@@ -1,0 +1,151 @@
+body {
+	width: 100%;
+}
+#r1_img {
+	max-width: 65%;
+	height: auto;
+	float: right;
+	margin-right: 10%;
+}
+#r1_c2 {
+	padding: 2.5% 6% 0 0;
+} 
+#r1_c2 div {
+	float: right;
+}
+#r1_c2 li {
+	padding-left: 15px;
+}
+#r2 {
+	height: 90px;
+	padding: 5px 0;
+}
+#r2_c1, #r2_c2, #r2_c3 {
+	background-color: #909090;
+}
+#r2_c1_img {
+	float: right;
+}
+#r2_c2 {
+	padding-top: 20px; 
+}
+#r2_c3 {
+	padding-top: 20px; 
+}
+#r2_c3_btn {
+	padding: 10px 30px;
+}
+#r3 {
+	height: 500px;
+	background-image: url('images/hbg2.png');
+	background-repeat: no-repeat;
+}
+#r3_c1_btn {
+	margin-top: 220px;
+	padding: 20px 30px 20px 40px;
+}
+#r3_c2_div {
+	margin-top: 150px;
+}
+#r3_c2_btn {
+	padding: 15px 50px;
+}
+#r4 {
+	padding: 80px;
+}
+#r4_c1_btn {
+	padding: 10px 30px;
+}
+#r4_c2_div {
+	margin-top: 120px;
+}
+#r4_c2_img {
+	border: 6px solid #BBB;
+}
+#r5 {
+	height: 500px;
+	background-image: url('images/hbg5.png');
+	background-repeat: no-repeat;
+}
+#r5_div {
+	margin-top: 80px;
+}
+.r5_img {
+	max-width: 100%;
+	max-height: auto;
+}
+#r5_span {
+	font-size: 20px;
+	padding: 10px 30px;
+	border: 3px solid #5cb85c;
+}
+#r6 {
+	height: 700px;
+	background-image: url('images/hbg6.png');
+	background-repeat: no-repeat;
+}
+#r6_1 {
+	margin: 30px 0 40px 0;
+}
+#r6_p {
+	font-size: 20px;
+	color: #444;
+}
+#r6_c1 {
+	padding: 20px 10px;
+	margin-right: 10px;
+	background-color: white;
+}
+#r6_c2 {
+	padding: 20px 10px;
+	margin-left: 10px;
+	background-color: white;
+}
+#r6_btn {
+	padding: 5px 50px;
+}
+#r8_1 {
+	text-align: center;
+	padding: 50px 0;
+}
+#r8_2 {
+	margin-bottom: 80px;
+}
+#r8_c1 {
+	margin-left: 130px;
+}
+#r8_btn {
+	padding: 5px 30px;
+	margin-bottom: 20px;
+}
+#r10 {
+	background-color: #444;
+}
+#r10_1 {
+	padding: 50px 0;
+}
+#r10_1_c2 {
+	padding-top: 30px;
+}
+#r10_btn {
+	padding: 10px 30px;
+}
+#r10_2_c1 {
+	margin-left: 120px;
+}
+#r10_2_c2, #r10_2_c3 {
+	margin-left: 20px;
+}
+#r10_2 h5 {
+	margin-bottom: 20px;
+}
+#r11 {
+	background-color: #222;
+	padding: 15px 0;
+}
+#r11_c1 {
+	padding-left: 250px;
+}
+#r12_c1 {
+	padding-left: 350px;
+}
