@@ -233,18 +233,18 @@ lorem
     margin: 20px 0;
     text-align: center;
     width: 100%;
-    height: 850px;
+    height: 1100px;
     background-image: url('images/inner_page_banner/who_we_help.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 #lorem div {
-    width: 100%;
-}#lorem_foot_2 {
-    margin-top: 20px;
+    width: 80%;
+    margin: 10px auto;
 }
 #lorem_foot_1, #lorem_foot_2 {
     background-color: white;
+    padding: 10px 0;
 }
 .lorem_btn {
     background-color: #8bc34a;
@@ -299,10 +299,110 @@ what our clients say
 */
 #what {
     width: 100%;
+    height: 200px;
+    background-image: url('images/hbg5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+}
+#what_head {
+    width: 100%;
+    height: 60px;
+    font-size: larger;
+    text-align: center;
+    padding: 20px 0;
+}
+#what_mid {
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+#what_foot {
+    width: 100%;
+    height: 80px;
+    font-size: small;
+    text-align: center;
+    padding: 5px 30px;
+}
+#what_prev {
+    width: 25%;
+    max-height: 100%;
 }
 #what_img {
-    max-width: 100%;
-    height: auto;
+    width: 50%;
+    text-align: center;
+}
+#what_next {
+    width: 25%;
+}
+#what_img img {
+    max-width: 40%;
+    max-height: 100%;
+    border: 2px solid #555;
+    border-radius: 50%;
+}
+#what_prev img {
+    max-width: 10%;
+    float: right;
+    margin: 20px 0;
+}
+#what_next img {
+    max-width: 10%;
+    float: left;
+    margin: 20px 0;
+}
+@media(min-width: 768px) {
+    #what {
+        height: 300px;
+    }
+    #what_head {
+        height: 160px;
+    }
+    #what_mid, #what_mid div{
+        height: 140px;
+    }
+    #what_foot {
+        height: 160px;
+        padding: 0 100px;
+    }
+    #what_prev, #what_next {
+        padding: 20px 0;
+    }
+    #what_head {
+        font-size: x-large;
+    }
+    #what_foot {
+        font-size: medium;
+    }
+}
+@media(min-width: 992px) {
+    #what {
+        height: 500px;
+    }
+    #what_head {
+        height: 160px;
+    }
+    #what_mid, #what_mid div{
+        height: 140px;
+    }
+    #what_foot {
+        height: 160px;
+        padding: 0 100px;
+    }
+    #what_prev, #what_next {
+        padding: 20px 0;
+    }
+    #what_head {
+        font-size: xx-large;
+        padding: 50px 0;
+    }
+    #what_foot {
+        font-size: large;
+        padding: 50px 200px;
+    }
 }
 /* 
 Blog
